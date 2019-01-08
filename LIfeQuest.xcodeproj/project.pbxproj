@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A0901821E518690024EFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0901721E518690024EFDC /* AppDelegate.swift */; };
+		54A0901A21E518690024EFDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0901921E518690024EFDC /* ViewController.swift */; };
+		54A0901D21E518690024EFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A0901B21E518690024EFDC /* Main.storyboard */; };
+		54A0901F21E5186A0024EFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A0901E21E5186A0024EFDC /* Assets.xcassets */; };
+		54A0902221E5186A0024EFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A0902021E5186A0024EFDC /* LaunchScreen.storyboard */; };
+		54A0902D21E5186A0024EFDC /* LIfeQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0902C21E5186A0024EFDC /* LIfeQuestTests.swift */; };
+		54A0903821E5186A0024EFDC /* LIfeQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0903721E5186A0024EFDC /* LIfeQuestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A0902921E5186A0024EFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A0900C21E518680024EFDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A0901321E518680024EFDC;
+			remoteInfo = LIfeQuest;
+		};
+		54A0903421E5186A0024EFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A0900C21E518680024EFDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A0901321E518680024EFDC;
+			remoteInfo = LIfeQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54A0901421E518680024EFDC /* LIfeQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIfeQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A0901721E518690024EFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54A0901921E518690024EFDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A0901C21E518690024EFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A0901E21E5186A0024EFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A0902121E5186A0024EFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A0902321E5186A0024EFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A0902821E5186A0024EFDC /* LIfeQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIfeQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A0902C21E5186A0024EFDC /* LIfeQuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIfeQuestTests.swift; sourceTree = "<group>"; };
+		54A0902E21E5186A0024EFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A0903321E5186A0024EFDC /* LIfeQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIfeQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A0903721E5186A0024EFDC /* LIfeQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIfeQuestUITests.swift; sourceTree = "<group>"; };
+		54A0903921E5186A0024EFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A0901121E518680024EFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A0902521E5186A0024EFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A0903021E5186A0024EFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A0900B21E518680024EFDC = {
+			isa = PBXGroup;
+			children = (
+				54A0901621E518680024EFDC /* LIfeQuest */,
+				54A0902B21E5186A0024EFDC /* LIfeQuestTests */,
+				54A0903621E5186A0024EFDC /* LIfeQuestUITests */,
+				54A0901521E518680024EFDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A0901521E518680024EFDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A0901421E518680024EFDC /* LIfeQuest.app */,
+				54A0902821E5186A0024EFDC /* LIfeQuestTests.xctest */,
+				54A0903321E5186A0024EFDC /* LIfeQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A0901621E518680024EFDC /* LIfeQuest */ = {
+			isa = PBXGroup;
+			children = (
+				54A0901721E518690024EFDC /* AppDelegate.swift */,
+				54A0901921E518690024EFDC /* ViewController.swift */,
+				54A0901B21E518690024EFDC /* Main.storyboard */,
+				54A0901E21E5186A0024EFDC /* Assets.xcassets */,
+				54A0902021E5186A0024EFDC /* LaunchScreen.storyboard */,
+				54A0902321E5186A0024EFDC /* Info.plist */,
+			);
+			path = LIfeQuest;
+			sourceTree = "<group>";
+		};
+		54A0902B21E5186A0024EFDC /* LIfeQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				54A0902C21E5186A0024EFDC /* LIfeQuestTests.swift */,
+				54A0902E21E5186A0024EFDC /* Info.plist */,
+			);
+			path = LIfeQuestTests;
+			sourceTree = "<group>";
+		};
+		54A0903621E5186A0024EFDC /* LIfeQuestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54A0903721E5186A0024EFDC /* LIfeQuestUITests.swift */,
+				54A0903921E5186A0024EFDC /* Info.plist */,
+			);
+			path = LIfeQuestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A0901321E518680024EFDC /* LIfeQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A0903C21E5186A0024EFDC /* Build configuration list for PBXNativeTarget "LIfeQuest" */;
+			buildPhases = (
+				54A0901021E518680024EFDC /* Sources */,
+				54A0901121E518680024EFDC /* Frameworks */,
+				54A0901221E518680024EFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LIfeQuest;
+			productName = LIfeQuest;
+			productReference = 54A0901421E518680024EFDC /* LIfeQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A0902721E5186A0024EFDC /* LIfeQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A0903F21E5186A0024EFDC /* Build configuration list for PBXNativeTarget "LIfeQuestTests" */;
+			buildPhases = (
+				54A0902421E5186A0024EFDC /* Sources */,
+				54A0902521E5186A0024EFDC /* Frameworks */,
+				54A0902621E5186A0024EFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A0902A21E5186A0024EFDC /* PBXTargetDependency */,
+			);
+			name = LIfeQuestTests;
+			productName = LIfeQuestTests;
+			productReference = 54A0902821E5186A0024EFDC /* LIfeQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54A0903221E5186A0024EFDC /* LIfeQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A0904221E5186A0024EFDC /* Build configuration list for PBXNativeTarget "LIfeQuestUITests" */;
+			buildPhases = (
+				54A0902F21E5186A0024EFDC /* Sources */,
+				54A0903021E5186A0024EFDC /* Frameworks */,
+				54A0903121E5186A0024EFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A0903521E5186A0024EFDC /* PBXTargetDependency */,
+			);
+			name = LIfeQuestUITests;
+			productName = LIfeQuestUITests;
+			productReference = 54A0903321E5186A0024EFDC /* LIfeQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A0900C21E518680024EFDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Period Three";
+				TargetAttributes = {
+					54A0901321E518680024EFDC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					54A0902721E5186A0024EFDC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 54A0901321E518680024EFDC;
+					};
+					54A0903221E5186A0024EFDC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 54A0901321E518680024EFDC;
+					};
+				};
+			};
+			buildConfigurationList = 54A0900F21E518680024EFDC /* Build configuration list for PBXProject "LIfeQuest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A0900B21E518680024EFDC;
+			productRefGroup = 54A0901521E518680024EFDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A0901321E518680024EFDC /* LIfeQuest */,
+				54A0902721E5186A0024EFDC /* LIfeQuestTests */,
+				54A0903221E5186A0024EFDC /* LIfeQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A0901221E518680024EFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A0902221E5186A0024EFDC /* LaunchScreen.storyboard in Resources */,
+				54A0901F21E5186A0024EFDC /* Assets.xcassets in Resources */,
+				54A0901D21E518690024EFDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A0902621E5186A0024EFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A0903121E5186A0024EFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A0901021E518680024EFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A0901A21E518690024EFDC /* ViewController.swift in Sources */,
+				54A0901821E518690024EFDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A0902421E5186A0024EFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A0902D21E5186A0024EFDC /* LIfeQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A0902F21E5186A0024EFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A0903821E5186A0024EFDC /* LIfeQuestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A0902A21E5186A0024EFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A0901321E518680024EFDC /* LIfeQuest */;
+			targetProxy = 54A0902921E5186A0024EFDC /* PBXContainerItemProxy */;
+		};
+		54A0903521E5186A0024EFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A0901321E518680024EFDC /* LIfeQuest */;
+			targetProxy = 54A0903421E5186A0024EFDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54A0901B21E518690024EFDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A0901C21E518690024EFDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54A0902021E5186A0024EFDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A0902121E5186A0024EFDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54A0903A21E5186A0024EFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54A0903B21E5186A0024EFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A0903D21E5186A0024EFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIfeQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.periodthree.LIfeQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A0903E21E5186A0024EFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIfeQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.periodthree.LIfeQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A0904021E5186A0024EFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIfeQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.periodthree.LIfeQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIfeQuest.app/LIfeQuest";
+			};
+			name = Debug;
+		};
+		54A0904121E5186A0024EFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIfeQuestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.periodthree.LIfeQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIfeQuest.app/LIfeQuest";
+			};
+			name = Release;
+		};
+		54A0904321E5186A0024EFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIfeQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.periodthree.LIfeQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIfeQuest;
+			};
+			name = Debug;
+		};
+		54A0904421E5186A0024EFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIfeQuestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.periodthree.LIfeQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIfeQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A0900F21E518680024EFDC /* Build configuration list for PBXProject "LIfeQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A0903A21E5186A0024EFDC /* Debug */,
+				54A0903B21E5186A0024EFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A0903C21E5186A0024EFDC /* Build configuration list for PBXNativeTarget "LIfeQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A0903D21E5186A0024EFDC /* Debug */,
+				54A0903E21E5186A0024EFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A0903F21E5186A0024EFDC /* Build configuration list for PBXNativeTarget "LIfeQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A0904021E5186A0024EFDC /* Debug */,
+				54A0904121E5186A0024EFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A0904221E5186A0024EFDC /* Build configuration list for PBXNativeTarget "LIfeQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A0904321E5186A0024EFDC /* Debug */,
+				54A0904421E5186A0024EFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A0900C21E518680024EFDC /* Project object */;
+}
